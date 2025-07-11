@@ -1,0 +1,16 @@
+.mobilefootericonstyle{
+
+    margin-top: 1rem;
+    > a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 2rem;
+        height: 2rem;
+        background-color: transparent;
+
+        color: #d6d6d6ff;
+        border-radius: 10px;
+
+    }
+}

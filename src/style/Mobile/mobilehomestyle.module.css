@@ -1,0 +1,59 @@
+.mobileiconstyle{
+    > a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        background-color: transparent;
+        color: #d9b289ff;
+        border-radius: 10px;
+        transition: all .5s;
+
+        &:hover{
+            background-color: #d6d6d6ff;
+            color: black;
+        }
+    }
+}
+.mobiledownloadstyle{
+    > a {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 10rem;
+        height: 3rem;
+        background-color: transparent;
+        color: white;
+        border-radius: 50px;
+        border: 2px solid black;
+        font-size: 15px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.5s;
+
+        &:active {
+            background-color: #c4c4c4ff;
+            color: black;
+        }
+
+    }
+}
+.mobilenamestyle{
+    background: linear-gradient(90deg, #242424 0%, #d9d9d9 36%);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;;
+}
+.mobiletypewriterstyle{
+    background: linear-gradient(90deg, #242424 0%, #d9d9d9 33%);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+
+}

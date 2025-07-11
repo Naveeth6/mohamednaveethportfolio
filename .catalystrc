@@ -1,0 +1,30 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "19763000000010112",
+      "name": "Portfolio",
+      "domain": {
+        "id": "50029277441",
+        "name": "portfolio-60043617627.development"
+      },
+      "timezone": "Asia/Kolkata",
+      "env": [
+        {
+          "idx": 1,
+          "id": "60043617627",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}

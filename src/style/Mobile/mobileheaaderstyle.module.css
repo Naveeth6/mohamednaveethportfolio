@@ -1,0 +1,57 @@
+.mobileheaderbutton{
+    margin: 0.5rem 1rem;
+
+    > .menuiconmobilenavbutton{
+        color: white;
+        font-size: 1.5rem;
+        border-radius: 0.3rem;
+        transition: all .5s;
+
+        &:active{
+            opacity: 0.5;
+            transform: scale(1.2);
+        }
+
+    }
+}
+.MobileHeadernavlink{
+    display: flex;
+    position: fixed;
+    background-color: #d6d6d6ff;
+    align-items: center;
+    margin-top: 2.7rem;
+    padding-top: 1rem;
+    gap: 1rem;
+    flex-direction: column;
+    top: 1px;
+    right: 0;
+    width: 10rem;
+    height: 15rem;
+    transition: all .5s ;
+    transform: translateX(1px);
+    font-weight: bold;
+    color: #444;
+    z-index: 200;
+     & > .link{
+         font-size: 1rem;
+         transition: all .3s;
+
+         &:active{
+             opacity: 0.5;
+         }
+
+     }
+    }
+.mobilenavbutton{
+    width: 8rem;
+    height: 2.5rem;
+    color: white !important ;
+    border-radius: 25px !important;
+    background-color: black !important;
+    transition: all .5s;
+
+    &:active{
+        color: black !important;
+        background-color: white !important;
+    }
+}

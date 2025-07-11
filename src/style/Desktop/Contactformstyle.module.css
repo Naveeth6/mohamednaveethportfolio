@@ -1,0 +1,75 @@
+.cleariconstyle{
+    position: relative;
+    top: -3rem;
+    left: 22rem;
+    font-size: 50px !important;
+    color: #8c8c8cff;
+    cursor: pointer;
+    transition: all 0.5s !important;
+    border: 2px solid transparent;
+    border-radius: 50%;
+
+    &:hover{
+        border: 2px solid black;
+    }
+}
+
+
+
+.inputstyle {
+    width: 18rem;
+    height: 2rem;
+    background-color: transparent;
+    color: #8c8c8cff;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    padding: 0.5rem 0  0.5rem 1rem;
+    transition: all 0.5s;
+
+
+      &::placeholder{
+           color: #8c8c8cff;
+          font-size: 10px;
+       }
+
+}
+.inputtextarea{
+    max-width: 18rem;
+    max-height: 6rem;
+    min-width: 18rem;
+    min-height: 6rem;
+    background-color: transparent;
+    color: #8c8c8cff;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    padding: 0.5rem 0  0.5rem 1rem;
+
+
+    &::placeholder{
+        color: #8c8c8cff;
+        font-size: 10px;
+    }
+
+}
+
+.inputbutton{
+    margin: 1rem 0 0 0;
+    width: 10rem;
+    height: 3rem;
+    background-color: transparent;
+    color: #8c8c8cff;
+    font-size: 15px;
+    font-weight: bold;
+    border-left: 3px solid #8c8c8cff;
+    border-right:3px solid #8c8c8cff ;
+    cursor: pointer;
+    transition: all 0.5s;
+
+    &:hover{
+        background-color: transparent;
+        border-left: 3px solid black;
+        border-right:3px solid black ;
+        color: black;
+
+    }
+}

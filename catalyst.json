@@ -1,0 +1,6 @@
+{
+  "client": {
+    "source": "naveethportfolio",
+    "plugin": "zcatalyst-cli-plugin-react"
+  }
+}

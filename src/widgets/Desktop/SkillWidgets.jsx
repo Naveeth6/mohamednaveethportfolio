@@ -9,7 +9,7 @@ import {
     Nodesvg,
     Postmanimg,
     Reactscg,
-    Wordpresssvg
+    Wordpress
 } from "../../assets/index.js";
 import {skillslogo,} from "../../style/Desktop/skillslogostyle.module.css";
 
@@ -47,7 +47,7 @@ export const SkillWidgets = () => {
                                         <div><img src={Postmanimg} alt={"Postman"} /><Typography sx={{fontSize:"12px",fontWeight:"bold", lineHeight:"1.7", color:"#444"}}>Postman</Typography></div>
                         </div>
                         <div>
-                            <div><img src={Wordpresssvg} alt={"Word Press"} /><Typography sx={{fontSize:"12px",fontWeight:"bold", lineHeight:"1.7", color:"#444"}}>WordPress</Typography></div>
+                            <div><img src={Wordpress} alt={"Word Press"} /><Typography sx={{fontSize:"12px",fontWeight:"bold", lineHeight:"1.7", color:"#444"}}>WordPress</Typography></div>
 
                         </div>
                     </Box>

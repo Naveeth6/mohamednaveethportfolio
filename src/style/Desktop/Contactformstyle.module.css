@@ -1,7 +1,7 @@
 .cleariconstyle{
-    position: relative;
-    top: -3rem;
-    left: 22rem;
+    position: absolute;
+    top: 1rem;
+    right: 3rem;
     font-size: 50px !important;
     color: #8c8c8cff;
     cursor: pointer;
@@ -10,7 +10,7 @@
     border-radius: 50%;
 
     &:hover{
-        border: 2px solid black;
+        border: 2px solid #8c8c8cff ;
     }
 }
 

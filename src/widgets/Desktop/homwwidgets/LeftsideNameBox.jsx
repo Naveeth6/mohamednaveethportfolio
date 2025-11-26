@@ -34,7 +34,7 @@ export const LeftsideNameBox = () => {
                 <Box height={"1rem"} justifyContent={"center"} alignItems={"center"} sx={{fontSize:"20px",fontWeight:"bold",}}>
 
                     <Typewriter
-                        words={['Developer','Web Page Designer','Cooder','MERN stack developer']}
+                        words={['Designer','Front End Developer','Coder','Software Tester','MERN stack developer']}
                         typeSpeed={100}
                         deleteSpeed={50}
                         loop={true}
@@ -57,7 +57,7 @@ export const LeftsideNameBox = () => {
 
             </Box>
             <Box className={downloadstyle} sx={{marginLeft:"4rem",marginTop:"3rem"}}>
-                <a href="/naveethportfolio/src/assets/MOHAMED-NAVEETH-RESUME.pdf" download="Mohamed Naveeth CV Download"><FileDownloadIcon fontSize="medium"/> DOWNLOAD CV</a>
+                <a href="/src/assets/Mohamed-Naveeth-CV.pdf" download="Mohamed Naveeth CV Download"><FileDownloadIcon fontSize="medium"/> DOWNLOAD CV</a>
             </Box>
         </Box>
     )

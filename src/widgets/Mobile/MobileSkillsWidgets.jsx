@@ -1,6 +1,16 @@
 import React from 'react';
 import {Box, Typography} from "@mui/material";
-import {Csssvg, Expresssvg, Htmlsvg, Jssvg, MongoDbsvg, Nodesvg, Reactscg} from "../../assets/index.js";
+import {
+    Csssvg,
+    Expresssvg,
+    Htmlsvg,
+    Jssvg,
+    MongoDbsvg,
+    Nodesvg,
+    Postmanimg,
+    Reactscg,
+    Wordpresssvg
+} from "../../assets/index.js";
 import {mobileskillslogo} from "../../style/Mobile/mobileskillsstyle.module.css"
 
 function MobileSkillsWidgets() {
@@ -35,9 +45,14 @@ function MobileSkillsWidgets() {
                 <div><img src={Nodesvg} alt={"Node"}/><Typography sx={{fontSize:"12px",fontWeight:"bold", lineHeight:"1.7", color:"#444"}}>Node</Typography></div>
                 <div><img src={MongoDbsvg} alt={"Mongodb"}/><Typography sx={{fontSize:"12px",fontWeight:"bold", lineHeight:"1.7", color:"#444"}}>MongoDB</Typography></div>
                 <div><img src={Expresssvg} alt={"express"} /><Typography sx={{fontSize:"12px",fontWeight:"bold", lineHeight:"1.7", color:"#444"}}>Express</Typography></div>
+                <div><img src={Postmanimg} alt={"Postman"} /><Typography sx={{fontSize:"12px",fontWeight:"bold", lineHeight:"1.7", color:"#444"}}>Postman</Typography></div>
             </Box>
+            <Box className={mobileskillslogo}>
+                <div><img src={Wordpresssvg} alt={"Word Press"} /><Typography sx={{fontSize:"12px",fontWeight:"bold", lineHeight:"1.7", color:"#444"}}>WordPress</Typography></div>
 
 
+
+            </Box>
             </Box>
         </Box>
     );

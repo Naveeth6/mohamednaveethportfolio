@@ -11,8 +11,9 @@ export const ContactWidgets = ({setShowcontact}) => {
     return (
         <Box display="flex" justifyContent="center" alignItems="center" width={"100vw"} height={"100vh"} sx={{position:"absolute",top:"0",right:"0",backdropFilter:"blur(10px)",zIndex:"10000"}} >
 
-            <Box display="flex" alignItems={"center"}  width={"30%"} height={"75%"} sx={{bgcolor:"#d6d6d6ff",border:"2px solid black",borderRadius:"10px"}} flexDirection={"column"}>
-                <Box>
+            <Box display="flex" alignItems={"center"}  width={"30vw"} height={"75vh"} sx={{bgcolor:"#d6d6d6ff",border:"2px solid black",borderRadius:"10px"}} flexDirection="column">
+                <Box display={"flex"} justifyContent="center" flexDirection="row" alignItems="center">
+                    <ClearIcon className={cleariconstyle} onClick={()=>setShowcontact(false)}/>
                     <Typography sx={{
                         display:"flex",
                         marginTop:"2rem",
@@ -26,14 +27,14 @@ export const ContactWidgets = ({setShowcontact}) => {
                         fontWeight:"bold",}}>CONTACT</Typography>
                 </Box>
 
-                <form method={"post"} action={"#"}>
+                <form action="https://formsubmit.co/mdnaveethmr@gmail.com" method="POST">
 
-                    <ClearIcon className={cleariconstyle} onClick={()=>setShowcontact(false)} />
-                    <Box display="flex" flexDirection={"column"} alignItems="center" gap={"2rem"} sx={{marginTop:"3rem"}}>
-                    <input type="text" className={inputstyle} placeholder="ENTER YOUR NAME *" required/>
-                    <input type="text" className={inputstyle} placeholder="ENTER YOUR EMAIL *" required/>
-                    <input type="text" className={inputstyle} placeholder="ENTER YOUR PHONE NUMBER"/>
-                    <textarea className={inputtextarea} placeholder="ENTER YOUR MESSAGE *" required/>
+
+                    <Box display="flex" flexDirection={"column"} alignItems="center" gap={"2rem"} sx={{marginTop:"3rem",}}>
+                    <input type="text" className={inputstyle} id="name" name={"Name"} placeholder="ENTER YOUR NAME *" required/>
+                    <input type="email" className={inputstyle} id="email" name={"Email"} placeholder="example@gmail.com *" required/>
+                    <input type="text" className={inputstyle}  id="phonenumber" name={"PhoneNumber"} placeholder="+91 1234567890 *" required/>
+                    <textarea className={inputtextarea} id="message" name={"Message"} rows="6" placeholder="ENTER YOUR MESSAGE *" />
 
                         <button type="submit" className={inputbutton}>SUBMIT</button>
                     </Box>

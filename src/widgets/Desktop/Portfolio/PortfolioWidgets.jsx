@@ -8,7 +8,7 @@ import PortfolioCardSubWidgets from "./PortfolioCardSubWidgets.jsx";
 
     return (
             <Box display={"flex"} flexDirection="column" alignItems={"center"} sx={{paddingTop:"5rem",marginBottom:"5rem"}} >
-                <Box gap={"5rem"} display={"flex"} flexDirection={"column"} alignItems={"center"} >
+                <Box gap={"5rem"} display={"flex"} flexDirection={"column"} alignItems={"center"} justifyContent={"center"}>
                      <Box display={"flex"} justifyContent="center" alignItems="center" >
                         <Typography sx={{
                         display:"flex",
@@ -19,7 +19,7 @@ import PortfolioCardSubWidgets from "./PortfolioCardSubWidgets.jsx";
                         width:"15rem",
                         fontSize:"20px",
                         height:"45px",
-                        fontWeight:"bold",}}>PORTFOLIO</Typography>
+                        fontWeight:"bold",}}>PROJECTS</Typography>
                 </Box>
                        <PortfolioCardSubWidgets/>
                 </Box>

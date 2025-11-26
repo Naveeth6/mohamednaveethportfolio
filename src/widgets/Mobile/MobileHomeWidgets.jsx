@@ -39,7 +39,7 @@ function MobileHomeWidgets() {
                         <Box height={"2rem"} className={mobiletypewriterstyle} sx={{fontSize:"20px",fontWeight:"bold",color:"#666",}}>
 
                             <Typewriter
-                                words={['Developer','Web Page Designer','Cooder','MERN stack developer']}
+                                words={['Developer','Front End Developer','Coder','Software Tester','MERN stack developer']}
                                 typeSpeed={100}
                                 deleteSpeed={50}
                                 loop={true}
@@ -59,7 +59,7 @@ function MobileHomeWidgets() {
                         </Box>
 
                         <Box className={mobiledownloadstyle} sx={{marginLeft:"7rem",marginTop:"2rem",marginBottom:"3rem"}}>
-                            <a href="/naveethportfolio/src/assets/MOHAMED-NAVEETH-RESUME.pdf" download="Mohamed Naveeth CV Download"><FileDownloadIcon fontSize="medium"/> DOWNLOAD CV</a>
+                            <a href="/src/assets/Mohamed-Naveeth-CV.pdf" download="Mohamed Naveeth CV Download"><FileDownloadIcon fontSize="medium"/> DOWNLOAD CV</a>
                         </Box>
 
                     </Box>

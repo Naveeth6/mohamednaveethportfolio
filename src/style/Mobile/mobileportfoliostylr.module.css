@@ -7,10 +7,11 @@
 
     a > div {
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             border: 2px solid black;
-            width: 6rem;
+            width: 6.5rem;
             height: 8rem;
             margin-bottom: 0.3rem;
             border-radius: 10px;
@@ -26,7 +27,7 @@
 
             > img {
                 width: 5rem;
-                height: 7rem;
+                height: 6rem;
                 border: 1px solid Transparent;
                 border-radius: 10px;
 

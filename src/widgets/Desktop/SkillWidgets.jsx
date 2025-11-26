@@ -1,6 +1,16 @@
 import {Box, Typography} from "@mui/material";
 import React from "react";
-import {Csssvg, Expresssvg, Htmlsvg, Jssvg, MongoDbsvg, Nodesvg, Reactscg} from "../../assets/index.js";
+import {
+    Csssvg,
+    Expresssvg,
+    Htmlsvg,
+    Jssvg,
+    MongoDbsvg,
+    Nodesvg,
+    Postmanimg,
+    Reactscg,
+    Wordpresssvg
+} from "../../assets/index.js";
 import {skillslogo,} from "../../style/Desktop/skillslogostyle.module.css";
 
 export const SkillWidgets = () => {
@@ -18,7 +28,7 @@ export const SkillWidgets = () => {
                     height:"45px",
                     fontWeight:"bold",}}>SKILLS</Typography>
             </Box>
-            <Box display={"flex"} height={"100%"}  sx={{bgcolor:"Transparent",margin:"4rem"}}>
+            <Box display={"flex"} height={"100%"} width={'100%'} justifyContent='center' sx={{bgcolor:"Transparent",margin:"4rem"}}>
                 <Box ><Typography
                     sx={{letterSpacing:"0.5rem",
                         fontWeight:"bold",
@@ -34,6 +44,11 @@ export const SkillWidgets = () => {
                             <div><img src={Nodesvg} alt={"Node"}/><Typography sx={{fontSize:"15px", lineHeight:"1.7", color:"#444"}}>Node</Typography></div>
                                 <div><img src={MongoDbsvg} alt={"Mongodb"}/><Typography sx={{fontSize:"15px", lineHeight:"1.7", color:"#444"}}>MongoDB</Typography></div>
                                     <div><img src={Expresssvg} alt={"express"} /><Typography sx={{fontSize:"15px", lineHeight:"1.7", color:"#444"}}>Express</Typography></div>
+                                        <div><img src={Postmanimg} alt={"Postman"} /><Typography sx={{fontSize:"12px",fontWeight:"bold", lineHeight:"1.7", color:"#444"}}>Postman</Typography></div>
+                        </div>
+                        <div>
+                            <div><img src={Wordpresssvg} alt={"Word Press"} /><Typography sx={{fontSize:"12px",fontWeight:"bold", lineHeight:"1.7", color:"#444"}}>WordPress</Typography></div>
+
                         </div>
                     </Box>
                 </Box>

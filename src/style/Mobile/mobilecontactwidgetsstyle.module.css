@@ -1,0 +1,57 @@
+.mobileinputstyle {
+    width: 12rem;
+    height: 1.5rem;
+    background-color: transparent;
+    color: #8c8c8cff;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 0.5rem 0  0.5rem 1rem;
+    transition: all 0.5s;
+
+
+    &::placeholder{
+        color: #8c8c8cff;
+        font-size: 10px;
+    }
+
+}
+.mobileinputtextarea{
+    max-width: 12rem;
+    max-height: 3rem;
+    min-width: 12rem;
+    min-height: 3rem;
+    background-color: transparent;
+    color: #8c8c8cff;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 0.5rem 0  0.5rem 1rem;
+
+
+    &::placeholder{
+        color: #8c8c8cff;
+        font-size: 10px;
+    }
+
+}
+
+.mobileinputbutton{
+    margin: 0.5rem 0 0 0;
+    width: 7rem;
+    height: 3rem;
+    background-color: transparent;
+    color: #8c8c8cff;
+    font-size: 12px;
+    font-weight: bold;
+    border-left: 2px solid #8c8c8cff;
+    border-right:2px solid #8c8c8cff ;
+    cursor: pointer;
+    transition: all 0.5s;
+
+    &:active{
+        background-color: transparent;
+        border-left: 3px solid black;
+        border-right:3px solid black ;
+        color: black;
+
+    }
+}

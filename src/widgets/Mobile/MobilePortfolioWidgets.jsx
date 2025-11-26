@@ -1,7 +1,7 @@
 import React from 'react';
 import {Box, Typography} from "@mui/material";
 import {mobileportfoliocardstyle} from "../../style/Mobile/mobileportfoliostylr.module.css"
-import {Uploadsoon} from "../../assets/index.js";
+import {Uploadsoon, V4tech} from "../../assets/index.js";
 
 function MobilePortfolioWidgets() {
     return (
@@ -16,10 +16,10 @@ function MobilePortfolioWidgets() {
                         width:"12rem",
                         fontSize:"13px",
                         height:"45px",
-                        fontWeight:"bold",}}>PORTFOLIO</Typography>
+                        fontWeight:"bold",}}>PROJECTS</Typography>
                 </Box>
             <Box className={mobileportfoliocardstyle} >
-                <a href={"#"}><div><img src={Uploadsoon} alt={"img1"}/></div> Project 1</a>
+                <a href={"https://v4-tech.in/"}><div><img src={V4tech} alt={"img1"}/>V4 tech Website</div> Project 1</a>
                 <a href={"#"}><div><img src={Uploadsoon} alt={"img2"}/></div>Project 2</a>
                 <a href={"#"}><div><img src={Uploadsoon} alt={"img3"}/></div>Project 3</a>
             </Box>

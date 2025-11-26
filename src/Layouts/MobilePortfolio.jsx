@@ -8,6 +8,7 @@ import MobileService from "../component/Mobile/MobileService.jsx";
 import MobileSkills from "../component/Mobile/MobileSkills.jsx";
 import MobileProject from "../component/Mobile/MobileProject.jsx";
 import MobileFooter from "../component/Mobile/MobileFooter.jsx";
+import MobileContactWidgets from "../widgets/Mobile/MobileContactWidgets.jsx";
 
 function MobilePortfolio() {
     return (

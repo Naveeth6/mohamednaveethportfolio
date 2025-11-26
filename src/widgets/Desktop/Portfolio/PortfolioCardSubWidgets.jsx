@@ -1,71 +1,14 @@
 import * as React from 'react';
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Typography from '@mui/material/Typography';
-import CardActionArea from '@mui/material/CardActionArea';
+import {Uploadsoon, V4tech} from "../../../assets/index.js";
+import {desktopportfoliocardstyle} from "../../../style/Desktop/PortfolioStyle.module.css";
 import {Box} from "@mui/material";
 
 export default function portfolioCardSubWidgets() {
     return (
-        <Box display="flex" flexDirection="row" gap="6rem" >
-        <Card sx={{ maxWidth: 345 , bgcolor:"#d6d6d6ff" }}>
-            <CardActionArea>
-                <CardMedia
-                    component="img"
-                    height="140"
-                    image="/static/images/cards/contemplative-reptile.jpg"
-                    alt="Project 1"
-                />
-                <CardContent>
-                    <Typography gutterBottom variant="h5" component="div" sx={{color:"#454545ff"}}>
-                        Project 1
-                    </Typography>
-                    <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                        Lizards are a widespread group of squamate reptiles, with over 6,000
-                        species, ranging across all continents except Antarctica
-                    </Typography>
-                </CardContent>
-            </CardActionArea>
-        </Card>
-            <Card sx={{ maxWidth: 345 , bgcolor:"#d6d6d6ff" }}>
-                <CardActionArea>
-                    <CardMedia
-                        component="img"
-                        height="140"
-                        image="/static/images/cards/contemplative-reptile.jpg"
-                        alt="Project 1"
-                    />
-                    <CardContent>
-                        <Typography gutterBottom variant="h5" component="div" sx={{color:"#454545ff"}}>
-                            Project 2
-                        </Typography>
-                        <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                            Lizards are a widespread group of squamate reptiles, with over 6,000
-                            species, ranging across all continents except Antarctica
-                        </Typography>
-                    </CardContent>
-                </CardActionArea>
-            </Card>
-            <Card sx={{ maxWidth: 345 , bgcolor:"#d6d6d6ff" }}>
-                <CardActionArea>
-                    <CardMedia
-                        component="img"
-                        height="140"
-                        image="/static/images/cards/contemplative-reptile.jpg"
-                        alt="Project 1"
-                    />
-                    <CardContent>
-                        <Typography gutterBottom variant="h5" component="div" sx={{color:"#454545ff"}}>
-                            Project 3
-                        </Typography>
-                        <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                            Lizards are a widespread group of squamate reptiles, with over 6,000
-                            species, ranging across all continents except Antarctica
-                        </Typography>
-                    </CardContent>
-                </CardActionArea>
-            </Card>
+        <Box display="flex" flexDirection="row" gap="6rem" className={desktopportfoliocardstyle}>
+                        <a href={"https://v4-tech.in/"}><div><img src={V4tech} alt={"img1"}/>v4 tech Website</div>Project 1</a>
+                        <a href={"#"}><div><img src={Uploadsoon} alt={"img2"}/>Coming Soon</div>Project 2</a>
+                        <a href={"#"}><div><img src={Uploadsoon} alt={"img3"}/>Coming Soon</div>Project 3</a>
         </Box>
     );
 }

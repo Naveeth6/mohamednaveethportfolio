@@ -12,7 +12,6 @@ import FileDownloadIcon from '@mui/icons-material/FileDownload';
 export const LeftsideNameBox = () => {
 
 
-
     return (
         <Box display={"flex"} flexDirection={"column"} className={""} maxWidth={"155.18"} width={"40%"} height={"100%"}  justifyContent={"left"} overflow={"hidden"}>
 
@@ -57,7 +56,7 @@ export const LeftsideNameBox = () => {
 
             </Box>
             <Box className={downloadstyle} sx={{marginLeft:"4rem",marginTop:"3rem"}}>
-                <a href="/src/assets/Mohamed-Naveeth-CV.pdf" download="Mohamed Naveeth CV Download"><FileDownloadIcon fontSize="medium"/> DOWNLOAD CV</a>
+                <a href="Naveeth CV ATS IND.pdf" download="Mohamed Naveeth CV"><FileDownloadIcon fontSize="medium"/> DOWNLOAD CV</a>
             </Box>
         </Box>
     )

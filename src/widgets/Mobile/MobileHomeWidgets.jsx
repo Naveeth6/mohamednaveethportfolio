@@ -59,7 +59,7 @@ function MobileHomeWidgets() {
                         </Box>
 
                         <Box className={mobiledownloadstyle} sx={{marginLeft:"7rem",marginTop:"2rem",marginBottom:"3rem"}}>
-                            <a href="/src/assets/Mohamed-Naveeth-CV.pdf" download="Mohamed Naveeth CV Download"><FileDownloadIcon fontSize="medium"/> DOWNLOAD CV</a>
+                            <a href="/src/assets/naveethresume.pdf" download="Mohamed Naveeth CV Download"><FileDownloadIcon fontSize="medium"/> DOWNLOAD CV</a>
                         </Box>
 
                     </Box>
